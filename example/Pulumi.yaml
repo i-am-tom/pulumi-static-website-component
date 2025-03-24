@@ -1,0 +1,15 @@
+name: example
+description: An example program
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
+plugins:
+  providers:
+    - name: static-website-provider
+      path: ../

@@ -1,0 +1,17 @@
+{
+  "name": "static-website-provider",
+  "main": "index.ts",
+  "devDependencies": {
+    "@pulumi/aws": "^6.72.0",
+    "@types/glob": "^8.1.0",
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^18",
+    "glob": "^11.0.1",
+    "mime-types": "^2.1.35",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.153.0",
+    "@pulumi/random": "^4.0.0"
+  }
+}

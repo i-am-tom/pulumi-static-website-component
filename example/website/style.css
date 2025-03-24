@@ -1,0 +1,9 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  border-bottom: 1px dotted #CCC;
+  padding-bottom: 15px;
+  text-align: center;
+}
